@@ -1,0 +1,1883 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angine de Poitrine chez la Femme : Ce que Votre Cœur Essaie de Vous Dire | Féminin Santé</title>
+  <meta name="description" content="Douleur thoracique, oppression, essoufflement : l'angine de poitrine chez la femme présente des symptômes atypiques souvent ignorés. Découvrez comment reconnaître une urgence cardiaque et protéger votre santé cardiovasculaire en 2026." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ============================================================
+       CSS VARIABLES & RESET
+    ============================================================ */
+    :root {
+      --crimson:    #C0293A;
+      --crimson-dk: #8B1A24;
+      --blush:      #F5E6EA;
+      --blush-mid:  #E8C8D0;
+      --gold:       #C9A84C;
+      --gold-lt:    #F0DBA8;
+      --ivory:      #FBF7F4;
+      --charcoal:   #1C1C22;
+      --mid-gray:   #5A5A6A;
+      --lt-gray:    #F0EEF2;
+      --white:      #FFFFFF;
+      --font-serif: 'Cormorant Garamond', Georgia, serif;
+      --font-display:'Playfair Display', serif;
+      --font-sans:  'DM Sans', system-ui, sans-serif;
+      --radius:     14px;
+      --shadow-sm:  0 2px 12px rgba(28,28,34,.07);
+      --shadow-md:  0 8px 40px rgba(28,28,34,.13);
+      --shadow-lg:  0 20px 60px rgba(28,28,34,.18);
+      --transition: all .35s cubic-bezier(.4,0,.2,1);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--ivory);
+      color: var(--charcoal);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    img { display: block; max-width: 100%; height: auto; }
+    a { color: inherit; text-decoration: none; }
+
+    /* ============================================================
+       SCROLL PROGRESS BAR
+    ============================================================ */
+    #progress-bar {
+      position: fixed;
+      top: 0; left: 0;
+      height: 3px;
+      width: 0%;
+      background: linear-gradient(90deg, var(--crimson), var(--gold));
+      z-index: 9999;
+      transition: width .1s linear;
+    }
+
+    /* ============================================================
+       HEADER / NAV
+    ============================================================ */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(251,247,244,.97);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--blush-mid);
+      padding: .9rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .logo-wrap {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+    }
+
+    .logo-badge {
+      width: 42px; height: 42px;
+      border-radius: 50%;
+      background: var(--crimson);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .logo-badge svg { width: 22px; height: 22px; fill: var(--white); }
+
+    .logo-text {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--crimson-dk);
+      line-height: 1.2;
+    }
+
+    .logo-text span {
+      display: block;
+      font-family: var(--font-sans);
+      font-size: .65rem;
+      font-weight: 400;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--mid-gray);
+    }
+
+    .header-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      padding: .55rem 1.1rem;
+      background: var(--crimson);
+      color: var(--white);
+      border-radius: 50px;
+      font-size: .78rem;
+      font-weight: 500;
+      letter-spacing: .04em;
+      transition: var(--transition);
+    }
+
+    .header-cta:hover {
+      background: var(--crimson-dk);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 20px rgba(192,41,58,.35);
+    }
+
+    /* ============================================================
+       HERO SECTION
+    ============================================================ */
+    .hero {
+      position: relative;
+      min-height: 88vh;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+      background: var(--charcoal);
+    }
+
+    .hero__bg {
+      position: absolute;
+      inset: 0;
+      background-image: url('https://femininsante.com/wp-content/uploads/2026/03/femme-douleur-thoracique-angine-de-poitrine-symptomes.webp');
+      background-size: cover;
+      background-position: center 25%;
+      opacity: .55;
+      transform: scale(1.05);
+      animation: heroZoom 14s ease-in-out infinite alternate;
+    }
+
+    @keyframes heroZoom {
+      from { transform: scale(1.05); }
+      to   { transform: scale(1.12); }
+    }
+
+    .hero__overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        180deg,
+        rgba(28,28,34,.15) 0%,
+        rgba(139,26,36,.25) 55%,
+        rgba(28,28,34,.92) 100%
+      );
+    }
+
+    .hero__content {
+      position: relative;
+      z-index: 2;
+      padding: 3rem 1.5rem 4rem;
+      max-width: 860px;
+      margin: 0 auto;
+      width: 100%;
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeUp .9s .3s cubic-bezier(.4,0,.2,1) forwards;
+    }
+
+    @keyframes fadeUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero__eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      padding: .3rem .85rem;
+      background: var(--crimson);
+      color: var(--white);
+      border-radius: 50px;
+      font-size: .72rem;
+      font-weight: 500;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero__eyebrow::before {
+      content: '';
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--gold-lt);
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: .6; transform: scale(1.4); }
+    }
+
+    .hero__title {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 5.5vw, 3.6rem);
+      font-weight: 900;
+      line-height: 1.1;
+      color: var(--white);
+      margin-bottom: 1.25rem;
+      letter-spacing: -.02em;
+    }
+
+    .hero__title em {
+      font-style: italic;
+      color: var(--gold-lt);
+    }
+
+    .hero__desc {
+      font-size: clamp(.95rem, 2vw, 1.15rem);
+      color: rgba(255,255,255,.88);
+      max-width: 580px;
+      margin-bottom: 2rem;
+      line-height: 1.75;
+    }
+
+    .hero__meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .hero__author {
+      display: flex;
+      align-items: center;
+      gap: .6rem;
+    }
+
+    .hero__author-avatar {
+      width: 38px; height: 38px;
+      border-radius: 50%;
+      border: 2px solid var(--gold);
+      overflow: hidden;
+      background: var(--blush);
+    }
+
+    .hero__author-info {
+      font-size: .82rem;
+      color: rgba(255,255,255,.85);
+      line-height: 1.3;
+    }
+
+    .hero__author-info strong {
+      display: block;
+      color: var(--gold-lt);
+      font-weight: 500;
+    }
+
+    .hero__badge {
+      display: flex;
+      align-items: center;
+      gap: .4rem;
+      padding: .35rem .9rem;
+      border: 1px solid rgba(255,255,255,.3);
+      border-radius: 50px;
+      font-size: .75rem;
+      color: rgba(255,255,255,.8);
+    }
+
+    .hero__badge svg { width: 14px; height: 14px; flex-shrink: 0; }
+
+    /* ============================================================
+       STATS RIBBON
+    ============================================================ */
+    .stats-ribbon {
+      background: var(--crimson);
+      padding: 1.5rem 1.5rem;
+      overflow: hidden;
+    }
+
+    .stats-ribbon__inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+
+    .stat-item {
+      text-align: center;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity .6s ease, transform .6s ease;
+    }
+
+    .stat-item.visible { opacity: 1; transform: translateY(0); }
+
+    .stat-item__num {
+      font-family: var(--font-display);
+      font-size: clamp(1.7rem, 4vw, 2.4rem);
+      font-weight: 700;
+      color: var(--gold-lt);
+      line-height: 1;
+    }
+
+    .stat-item__label {
+      font-size: .73rem;
+      color: rgba(255,255,255,.82);
+      margin-top: .3rem;
+      letter-spacing: .04em;
+    }
+
+    /* ============================================================
+       MAIN LAYOUT
+    ============================================================ */
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
+    .article-body {
+      padding: 4rem 0;
+    }
+
+    /* ============================================================
+       INTRO CARD
+    ============================================================ */
+    .intro-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 2.5rem 2rem;
+      margin-bottom: 3.5rem;
+      border-left: 4px solid var(--crimson);
+      box-shadow: var(--shadow-sm);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .intro-card::after {
+      content: '♥';
+      position: absolute;
+      right: 1.5rem;
+      top: 1.5rem;
+      font-size: 4rem;
+      color: var(--blush);
+      line-height: 1;
+    }
+
+    .intro-card p {
+      font-family: var(--font-serif);
+      font-size: clamp(1.1rem, 2.5vw, 1.3rem);
+      line-height: 1.8;
+      color: var(--charcoal);
+    }
+
+    .intro-card p strong {
+      color: var(--crimson);
+    }
+
+    /* ============================================================
+       SECTION TITLES
+    ============================================================ */
+    .section-header {
+      margin-bottom: 2rem;
+      opacity: 0;
+      transform: translateX(-20px);
+      transition: opacity .6s ease, transform .6s ease;
+    }
+
+    .section-header.visible { opacity: 1; transform: translateX(0); }
+
+    .section-header__label {
+      font-size: .7rem;
+      font-weight: 500;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: var(--crimson);
+      margin-bottom: .5rem;
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+    }
+
+    .section-header__label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--blush-mid);
+      max-width: 60px;
+    }
+
+    .section-header__title {
+      font-family: var(--font-display);
+      font-size: clamp(1.5rem, 3.5vw, 2.1rem);
+      font-weight: 700;
+      color: var(--charcoal);
+      line-height: 1.25;
+    }
+
+    .section-header__title em {
+      font-style: italic;
+      color: var(--crimson);
+    }
+
+    /* ============================================================
+       BODY TEXT
+    ============================================================ */
+    .article-text {
+      font-size: clamp(.93rem, 1.8vw, 1.05rem);
+      line-height: 1.85;
+      color: var(--mid-gray);
+      margin-bottom: 1.5rem;
+    }
+
+    .article-text strong { color: var(--charcoal); font-weight: 600; }
+
+    .article-text a.internal-link {
+      color: var(--crimson);
+      font-weight: 600;
+      border-bottom: 1.5px solid currentColor;
+      transition: opacity .25s;
+    }
+
+    .article-text a.internal-link:hover { opacity: .7; }
+
+    /* ============================================================
+       PULL QUOTE
+    ============================================================ */
+    .pull-quote {
+      margin: 2.5rem 0;
+      padding: 2rem 2rem 2rem 2.5rem;
+      background: linear-gradient(135deg, var(--blush) 0%, var(--ivory) 100%);
+      border-left: 5px solid var(--crimson);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      position: relative;
+    }
+
+    .pull-quote::before {
+      content: '\201C';
+      position: absolute;
+      top: -.3rem;
+      left: .9rem;
+      font-family: var(--font-display);
+      font-size: 5rem;
+      color: var(--blush-mid);
+      line-height: 1;
+    }
+
+    .pull-quote p {
+      font-family: var(--font-serif);
+      font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+      font-weight: 600;
+      color: var(--charcoal);
+      line-height: 1.6;
+      font-style: italic;
+    }
+
+    .pull-quote cite {
+      display: block;
+      margin-top: .75rem;
+      font-size: .8rem;
+      font-style: normal;
+      color: var(--mid-gray);
+      letter-spacing: .05em;
+    }
+
+    /* ============================================================
+       IMAGE + CAPTION
+    ============================================================ */
+    .figure-wrap {
+      margin: 2.5rem 0;
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      position: relative;
+    }
+
+    .figure-wrap img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform .6s ease;
+    }
+
+    .figure-wrap:hover img { transform: scale(1.02); }
+
+    .figure-caption {
+      background: var(--charcoal);
+      padding: .75rem 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      font-size: .75rem;
+      color: rgba(255,255,255,.72);
+      font-style: italic;
+    }
+
+    .figure-caption svg {
+      width: 14px; height: 14px;
+      fill: var(--gold);
+      flex-shrink: 0;
+    }
+
+    /* ============================================================
+       INFO BOX
+    ============================================================ */
+    .info-box {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 1.75rem 1.75rem 1.75rem 2rem;
+      margin: 2rem 0;
+      box-shadow: var(--shadow-sm);
+      border-top: 3px solid var(--gold);
+    }
+
+    .info-box__title {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--charcoal);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: .6rem;
+    }
+
+    .info-box__title svg {
+      width: 20px; height: 20px;
+      fill: var(--gold);
+      flex-shrink: 0;
+    }
+
+    .info-box ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: .55rem;
+    }
+
+    .info-box li {
+      display: flex;
+      align-items: flex-start;
+      gap: .7rem;
+      font-size: .93rem;
+      color: var(--mid-gray);
+      line-height: 1.6;
+    }
+
+    .info-box li::before {
+      content: '';
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: var(--crimson);
+      margin-top: .5rem;
+      flex-shrink: 0;
+    }
+
+    /* ============================================================
+       ALERT BOX (URGENCE)
+    ============================================================ */
+    .alert-box {
+      background: linear-gradient(135deg, #FFF0F2 0%, #FFF8F0 100%);
+      border: 1.5px solid #FFBFC8;
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      margin: 2.5rem 0;
+      display: flex;
+      gap: 1.25rem;
+      align-items: flex-start;
+    }
+
+    .alert-box__icon {
+      width: 48px; height: 48px;
+      border-radius: 50%;
+      background: var(--crimson);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .alert-box__icon svg { width: 24px; height: 24px; fill: var(--white); }
+
+    .alert-box__content {}
+
+    .alert-box__title {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--crimson-dk);
+      margin-bottom: .6rem;
+    }
+
+    .alert-box__text {
+      font-size: .92rem;
+      color: var(--mid-gray);
+      line-height: 1.7;
+    }
+
+    /* ============================================================
+       SYMPTOM GRID
+    ============================================================ */
+    .symptom-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+
+    .symptom-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 1.4rem 1.2rem;
+      text-align: center;
+      box-shadow: var(--shadow-sm);
+      border-bottom: 3px solid var(--blush-mid);
+      transition: var(--transition);
+      cursor: default;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: box-shadow .3s, border-color .3s, transform .5s ease, opacity .5s ease;
+    }
+
+    .symptom-card.visible { opacity: 1; transform: translateY(0); }
+
+    .symptom-card:hover {
+      box-shadow: var(--shadow-md);
+      border-color: var(--crimson);
+    }
+
+    .symptom-card__icon {
+      font-size: 2rem;
+      margin-bottom: .6rem;
+      display: block;
+    }
+
+    .symptom-card__title {
+      font-family: var(--font-sans);
+      font-size: .88rem;
+      font-weight: 600;
+      color: var(--charcoal);
+      margin-bottom: .35rem;
+    }
+
+    .symptom-card__desc {
+      font-size: .78rem;
+      color: var(--mid-gray);
+      line-height: 1.5;
+    }
+
+    /* ============================================================
+       SPLIT SECTION (text + image side by side)
+    ============================================================ */
+    .split-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5rem;
+      align-items: center;
+      margin: 3rem 0;
+    }
+
+    .split-section.reversed { direction: rtl; }
+    .split-section.reversed > * { direction: ltr; }
+
+    @media (max-width: 640px) {
+      .split-section { grid-template-columns: 1fr; }
+      .split-section.reversed { direction: ltr; }
+    }
+
+    .split-section__image {
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+    }
+
+    .split-section__image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .6s ease;
+    }
+
+    .split-section__image:hover img { transform: scale(1.04); }
+
+    /* ============================================================
+       CTA SECTION
+    ============================================================ */
+    .cta-section {
+      background: linear-gradient(135deg, var(--crimson-dk) 0%, var(--crimson) 100%);
+      border-radius: calc(var(--radius) * 1.5);
+      padding: 3.5rem 2rem;
+      text-align: center;
+      margin: 4rem 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-section::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+
+    .cta-section__eyebrow {
+      font-size: .72rem;
+      font-weight: 500;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: var(--gold-lt);
+      margin-bottom: .75rem;
+    }
+
+    .cta-section__title {
+      font-family: var(--font-display);
+      font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+
+    .cta-section__text {
+      font-size: .98rem;
+      color: rgba(255,255,255,.85);
+      max-width: 540px;
+      margin: 0 auto 2rem;
+      line-height: 1.7;
+    }
+
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: .6rem;
+      padding: .9rem 2.2rem;
+      background: var(--white);
+      color: var(--crimson-dk);
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: .95rem;
+      transition: var(--transition);
+      box-shadow: 0 4px 20px rgba(0,0,0,.2);
+    }
+
+    .cta-btn:hover {
+      background: var(--gold-lt);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 30px rgba(0,0,0,.25);
+    }
+
+    .cta-btn svg { width: 18px; height: 18px; }
+
+    /* ============================================================
+       EXPERT PANEL
+    ============================================================ */
+    .expert-panel {
+      display: flex;
+      gap: 1.5rem;
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 2rem;
+      margin: 3rem 0;
+      box-shadow: var(--shadow-sm);
+      align-items: flex-start;
+    }
+
+    .expert-avatar {
+      width: 80px; height: 80px;
+      border-radius: 50%;
+      overflow: hidden;
+      flex-shrink: 0;
+      border: 3px solid var(--blush-mid);
+    }
+
+    .expert-avatar img { width: 100%; height: 100%; object-fit: cover; }
+
+    .expert-info {}
+
+    .expert-name {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--charcoal);
+    }
+
+    .expert-title {
+      font-size: .8rem;
+      color: var(--crimson);
+      font-weight: 500;
+      letter-spacing: .04em;
+      margin-bottom: .6rem;
+    }
+
+    .expert-bio {
+      font-size: .88rem;
+      color: var(--mid-gray);
+      line-height: 1.7;
+    }
+
+    /* ============================================================
+       TIMELINE
+    ============================================================ */
+    .timeline {
+      position: relative;
+      padding-left: 2rem;
+      margin: 2rem 0;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: .4rem;
+      top: 0; bottom: 0;
+      width: 2px;
+      background: linear-gradient(180deg, var(--crimson), var(--gold));
+    }
+
+    .timeline__item {
+      position: relative;
+      padding-bottom: 1.75rem;
+      opacity: 0;
+      transform: translateX(-15px);
+      transition: opacity .5s ease, transform .5s ease;
+    }
+
+    .timeline__item.visible { opacity: 1; transform: translateX(0); }
+
+    .timeline__item::before {
+      content: '';
+      position: absolute;
+      left: -1.7rem;
+      top: .35rem;
+      width: 12px; height: 12px;
+      border-radius: 50%;
+      background: var(--crimson);
+      border: 2px solid var(--ivory);
+      box-shadow: 0 0 0 3px rgba(192,41,58,.2);
+    }
+
+    .timeline__title {
+      font-family: var(--font-sans);
+      font-size: .95rem;
+      font-weight: 600;
+      color: var(--charcoal);
+      margin-bottom: .3rem;
+    }
+
+    .timeline__text {
+      font-size: .88rem;
+      color: var(--mid-gray);
+      line-height: 1.65;
+    }
+
+    /* ============================================================
+       DIVIDER
+    ============================================================ */
+    .ornament-divider {
+      text-align: center;
+      margin: 3rem 0;
+      color: var(--blush-mid);
+      font-size: 1.5rem;
+      letter-spacing: .5rem;
+    }
+
+    /* ============================================================
+       ARTICLE CARD (related)
+    ============================================================ */
+    .related-section {
+      background: var(--lt-gray);
+      border-radius: var(--radius);
+      padding: 2.5rem 1.75rem;
+      margin: 3rem 0;
+    }
+
+    .related-section__title {
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--charcoal);
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+    }
+
+    .related-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .related-card {
+      background: var(--white);
+      border-radius: calc(var(--radius) * .8);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+    }
+
+    .related-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .related-card__img {
+      height: 130px;
+      overflow: hidden;
+    }
+
+    .related-card__img img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      transition: transform .4s ease;
+    }
+
+    .related-card:hover .related-card__img img { transform: scale(1.06); }
+
+    .related-card__body {
+      padding: .85rem 1rem;
+    }
+
+    .related-card__cat {
+      font-size: .65rem;
+      font-weight: 600;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--crimson);
+      margin-bottom: .35rem;
+    }
+
+    .related-card__title {
+      font-family: var(--font-sans);
+      font-size: .85rem;
+      font-weight: 600;
+      color: var(--charcoal);
+      line-height: 1.4;
+    }
+
+    /* ============================================================
+       FOOTER
+    ============================================================ */
+    .site-footer {
+      background: var(--charcoal);
+      color: rgba(255,255,255,.7);
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+
+    .site-footer__logo {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      color: var(--white);
+      margin-bottom: .5rem;
+    }
+
+    .site-footer__logo span {
+      color: var(--gold);
+      font-style: italic;
+    }
+
+    .site-footer__tagline {
+      font-size: .82rem;
+      margin-bottom: 1.5rem;
+      letter-spacing: .06em;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: .5rem 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .footer-links a {
+      font-size: .8rem;
+      color: rgba(255,255,255,.6);
+      transition: color .2s;
+    }
+
+    .footer-links a:hover { color: var(--gold-lt); }
+
+    .footer-disclaimer {
+      font-size: .73rem;
+      color: rgba(255,255,255,.4);
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    /* ============================================================
+       FLOATING BACK-TO-TOP
+    ============================================================ */
+    #back-top {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      width: 46px; height: 46px;
+      background: var(--crimson);
+      color: var(--white);
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: var(--shadow-md);
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity .3s, transform .3s, background .2s;
+      z-index: 200;
+    }
+
+    #back-top.show { opacity: 1; transform: translateY(0); }
+    #back-top:hover { background: var(--crimson-dk); }
+    #back-top svg { width: 18px; height: 18px; }
+
+    /* ============================================================
+       READING MODE TOGGLE
+    ============================================================ */
+    .read-toggle {
+      position: fixed;
+      top: 50%;
+      right: -1px;
+      transform: translateY(-50%);
+      z-index: 150;
+    }
+
+    .read-toggle__btn {
+      background: var(--white);
+      border: 1px solid var(--blush-mid);
+      border-right: none;
+      border-radius: 8px 0 0 8px;
+      padding: .6rem .5rem;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: .35rem;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+    }
+
+    .read-toggle__btn:hover { background: var(--blush); }
+
+    .read-toggle__btn svg { width: 16px; height: 16px; fill: var(--mid-gray); }
+
+    .read-toggle__label {
+      font-size: .6rem;
+      writing-mode: vertical-rl;
+      color: var(--mid-gray);
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    body.reading-mode {
+      --ivory: #FFFDF9;
+      font-size: 17px;
+    }
+
+    /* ============================================================
+       RESPONSIVE
+    ============================================================ */
+    @media (max-width: 768px) {
+      .stats-ribbon__inner { grid-template-columns: repeat(3, 1fr); gap: .5rem; }
+      .stat-item__num { font-size: 1.6rem; }
+      .expert-panel { flex-direction: column; align-items: center; text-align: center; }
+      .read-toggle { display: none; }
+    }
+
+    @media (max-width: 480px) {
+      .hero { min-height: 75vh; }
+      .intro-card { padding: 1.5rem 1.25rem; }
+      .intro-card::after { display: none; }
+      .pull-quote { padding: 1.5rem 1.25rem 1.5rem 1.75rem; }
+      .alert-box { flex-direction: column; }
+    }
+
+    /* ============================================================
+       HEARTBEAT ANIMATION (decorative)
+    ============================================================ */
+    .heartbeat-line {
+      width: 100%;
+      height: 60px;
+      overflow: hidden;
+      margin: 2rem 0;
+    }
+
+    .heartbeat-line svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    .hb-path {
+      stroke-dasharray: 600;
+      stroke-dashoffset: 600;
+      animation: drawLine 2s ease forwards, dashLoop 4s 2s linear infinite;
+    }
+
+    @keyframes drawLine {
+      to { stroke-dashoffset: 0; }
+    }
+
+    @keyframes dashLoop {
+      0%   { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: -600; }
+    }
+
+    /* ============================================================
+       NUMBER CALLOUT
+    ============================================================ */
+    .number-callout {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+      margin: 1.25rem 0;
+    }
+
+    .number-callout__num {
+      font-family: var(--font-display);
+      font-size: 3rem;
+      font-weight: 900;
+      color: var(--blush-mid);
+      line-height: 1;
+      flex-shrink: 0;
+      min-width: 3rem;
+      text-align: center;
+    }
+
+    .number-callout__text {
+      padding-top: .4rem;
+    }
+
+    .number-callout__label {
+      font-size: .78rem;
+      font-weight: 600;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--crimson);
+      margin-bottom: .2rem;
+    }
+
+    .number-callout__desc {
+      font-size: .91rem;
+      color: var(--mid-gray);
+      line-height: 1.65;
+    }
+
+    /* ============================================================
+       COOKIE-LESS READING BAR
+    ============================================================ */
+    .reading-indicator {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      margin-bottom: 2rem;
+      font-size: .78rem;
+      color: var(--mid-gray);
+    }
+
+    .reading-indicator__bar {
+      flex: 1;
+      height: 4px;
+      background: var(--blush-mid);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .reading-indicator__fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--crimson), var(--gold));
+      border-radius: 2px;
+      transition: width .2s linear;
+    }
+
+  </style>
+</head>
+<body>
+
+<!-- SCROLL PROGRESS -->
+<div id="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+
+<!-- READING MODE TOGGLE -->
+<div class="read-toggle">
+  <button class="read-toggle__btn" id="readToggle" aria-label="Mode lecture">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zm0 12.5c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+    <span class="read-toggle__label">Lecture</span>
+  </button>
+</div>
+
+<!-- HEADER -->
+<header class="site-header" role="banner">
+  <div class="logo-wrap">
+    <div class="logo-badge" aria-hidden="true">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402z"/></svg>
+    </div>
+    <div class="logo-text">
+      Féminin <em>Santé</em>
+      <span>Magazine · Santé Cardio-Vasculaire</span>
+    </div>
+  </div>
+  <a href="https://femininsante.com/angine-de-poitrine-guide-complet-2026/" class="header-cta" rel="nofollow noopener" target="_blank">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zm0 12.5c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/></svg>
+    Lire le Guide
+  </a>
+</header>
+
+<!-- HERO -->
+<section class="hero" aria-label="Image principale de l'article">
+  <div class="hero__bg" role="img" aria-label="Femme ressentant une douleur thoracique, symptôme d'angine de poitrine"></div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content">
+    <div class="hero__eyebrow">Santé Cardiovasculaire · Guide Expert 2026</div>
+    <h1 class="hero__title">
+      <em>Angine de Poitrine</em> chez la Femme :<br />
+      Ce que Votre Cœur Essaie<br />de Vous Dire
+    </h1>
+    <p class="hero__desc">
+      Douleur thoracique, oppression inexpliquée, essoufflement à l'effort… Ces signaux corporels sont souvent banalisés par les femmes — et parfois même par les médecins. Pourtant, derrière ces symptômes peut se cacher une <strong>urgence cardiaque silencieuse</strong>.
+    </p>
+    <div class="hero__meta">
+      <div class="hero__author">
+        <div class="hero__author-avatar" aria-hidden="true">
+          <img src="https://femininsante.com/wp-content/uploads/2026/03/Patricia-Uget-—-Journaliste-feminin-Sante.webp" alt="Patricia Uget, journaliste santé" width="38" height="38" loading="lazy" />
+        </div>
+        <div class="hero__author-info">
+          <strong>Patricia Uget</strong>
+          Journaliste · Féminin Santé Magazine
+        </div>
+      </div>
+      <div class="hero__badge">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+        Lecture : 8 min
+      </div>
+      <div class="hero__badge">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/></svg>
+        Mis à jour mars 2026
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS RIBBON -->
+<div class="stats-ribbon" role="complementary" aria-label="Chiffres clés">
+  <div class="stats-ribbon__inner">
+    <div class="stat-item">
+      <div class="stat-item__num">5,4 M</div>
+      <div class="stat-item__label">Français touchés par l'angor</div>
+    </div>
+    <div class="stat-item" style="transition-delay:.1s">
+      <div class="stat-item__num">40%</div>
+      <div class="stat-item__label">Des femmes n'identifient pas leurs symptômes</div>
+    </div>
+    <div class="stat-item" style="transition-delay:.2s">
+      <div class="stat-item__num">N°1</div>
+      <div class="stat-item__label">Cause de mortalité féminine en France</div>
+    </div>
+  </div>
+</div>
+
+<!-- ARTICLE BODY -->
+<main class="article-body" id="main-content">
+  <div class="container">
+
+    <!-- READING INDICATOR -->
+    <div class="reading-indicator" aria-hidden="true">
+      <span>Progression</span>
+      <div class="reading-indicator__bar">
+        <div class="reading-indicator__fill" id="readingFill"></div>
+      </div>
+      <span id="readingPct">0%</span>
+    </div>
+
+    <!-- INTRO CARD -->
+    <div class="intro-card" role="note">
+      <p>
+        Votre cœur bat en moyenne <strong>100 000 fois par jour</strong>. Chacune de ces contractions dépend d'un apport sanguin suffisant via les artères coronaires. Lorsque cet apport se réduit — à cause de plaques d'athérosclérose ou de spasmes vasculaires — la douleur caractéristique de <strong>l'angine de poitrine</strong> (ou <em>angor</em>) se manifeste. Mais chez la femme, ce tableau clinique est souvent <strong>atypique, incompris, et dangereusement sous-estimé</strong>.
+      </p>
+    </div>
+
+    <!-- SECTION 1 -->
+    <div class="section-header" id="section1">
+      <p class="section-header__label">Comprendre la maladie</p>
+      <h2 class="section-header__title">Qu'est-ce que l'<em>angine de poitrine</em>, exactement ?</h2>
+    </div>
+
+    <p class="article-text">
+      L'angine de poitrine est une douleur thoracique causée par une <strong>ischémie myocardique transitoire</strong> — c'est-à-dire un manque temporaire d'oxygène au niveau du muscle cardiaque. Elle survient le plus souvent à l'effort et cède au repos. Contrairement à l'infarctus du myocarde, il n'y a pas (encore) de nécrose des cellules cardiaques : la douleur est un <strong>signal d'alarme précieux</strong> que votre organisme vous envoie.
+    </p>
+
+    <p class="article-text">
+      Pour aller plus loin et comprendre tous les mécanismes physiologiques, les facteurs de risque cardiovasculaires spécifiques au sexe féminin, ainsi que les stratégies thérapeutiques actuelles, nous vous recommandons la lecture du <a href="https://femininsante.com/angine-de-poitrine-guide-complet-2026/" class="internal-link" rel="noopener" target="_blank">guide complet sur l'angine de poitrine 2026</a> publié par nos expertes.
+    </p>
+
+    <!-- HEARTBEAT LINE -->
+    <div class="heartbeat-line" aria-hidden="true">
+      <svg viewBox="0 0 600 60" preserveAspectRatio="none">
+        <path class="hb-path"
+          d="M0,30 L60,30 L80,10 L100,50 L120,5 L140,55 L160,30 L220,30 L240,20 L260,40 L280,30 L360,30 L380,8 L400,52 L420,4 L440,56 L460,30 L520,30 L540,18 L560,42 L580,30 L600,30"
+          fill="none"
+          stroke="#C0293A"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </div>
+
+    <!-- SECTION 2 - SYMPTOMS -->
+    <div class="section-header" id="section2">
+      <p class="section-header__label">Sémiologie différentielle</p>
+      <h2 class="section-header__title">Les <em>symptômes de l'angine de poitrine</em> chez la femme</h2>
+    </div>
+
+    <p class="article-text">
+      Les femmes présentent fréquemment des symptômes atypiques qui diffèrent du tableau classique décrit chez l'homme — une oppression thoracique irradiant vers le bras gauche. Cette <strong>différence physiologique fondamentale</strong> retarde trop souvent le diagnostic et expose à des complications graves.
+    </p>
+
+    <div class="figure-wrap">
+      <img
+        src="https://femininsante.com/wp-content/uploads/2026/03/symptomes-femme-angine-de-poitrine-696x398.webp"
+        alt="Illustration médicale des symptômes de l'angine de poitrine chez la femme : localisation des douleurs, dyspnée, fatigue"
+        width="696" height="398"
+        loading="lazy"
+      />
+      <div class="figure-caption">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+        Localisation et nature des douleurs thoraciques chez la femme — Féminin Santé 2026
+      </div>
+    </div>
+
+    <div class="symptom-grid" role="list" aria-label="Symptômes principaux">
+      <div class="symptom-card" role="listitem">
+        <span class="symptom-card__icon" aria-hidden="true">🫁</span>
+        <div class="symptom-card__title">Dyspnée d'effort</div>
+        <div class="symptom-card__desc">Essoufflement disproportionné lors d'activités ordinaires, souvent confondu avec de l'anxiété ou un déconditionnement physique.</div>
+      </div>
+      <div class="symptom-card" role="listitem" style="transition-delay:.08s">
+        <span class="symptom-card__icon" aria-hidden="true">🤢</span>
+        <div class="symptom-card__title">Nausées & inconfort</div>
+        <div class="symptom-card__desc">Sensation de malaise digestif, nausées, parfois vomissements — symptômes très fréquents chez la femme mais rarement associés au cœur.</div>
+      </div>
+      <div class="symptom-card" role="listitem" style="transition-delay:.16s">
+        <span class="symptom-card__icon" aria-hidden="true">😮‍💨</span>
+        <div class="symptom-card__title">Fatigue inexpliquée</div>
+        <div class="symptom-card__desc">Épuisement inhabituel, parfois plusieurs jours avant un épisode aigu, sans cause apparente identifiable.</div>
+      </div>
+      <div class="symptom-card" role="listitem" style="transition-delay:.24s">
+        <span class="symptom-card__icon" aria-hidden="true">🫀</span>
+        <div class="symptom-card__title">Pression thoracique</div>
+        <div class="symptom-card__desc">Sensation de serrement ou de poids sur la poitrine, typiquement déclenchée à l'effort et soulagée par le repos.</div>
+      </div>
+      <div class="symptom-card" role="listitem" style="transition-delay:.32s">
+        <span class="symptom-card__icon" aria-hidden="true">💫</span>
+        <div class="symptom-card__title">Vertiges & malaise</div>
+        <div class="symptom-card__desc">Sensation d'instabilité ou de tête qui tourne, pouvant précéder une syncope cardiaque en l'absence de prise en charge.</div>
+      </div>
+      <div class="symptom-card" role="listitem" style="transition-delay:.40s">
+        <span class="symptom-card__icon" aria-hidden="true">💤</span>
+        <div class="symptom-card__title">Troubles du sommeil</div>
+        <div class="symptom-card__desc">Réveils nocturnes accompagnés d'un inconfort thoracique — signe possible d'un angor de Prinzmetal ou instable.</div>
+      </div>
+    </div>
+
+    <div class="pull-quote">
+      <p>« Chez la femme, l'angine de poitrine parle souvent un autre langage. Savoir déchiffrer ces signaux atypiques, c'est potentiellement se sauver la vie. »</p>
+      <cite>— Dr. Amandine Cherel, cardiologue, CHU de Lyon</cite>
+    </div>
+
+    <!-- SECTION 3 - URGENCY -->
+    <div class="section-header" id="section3">
+      <p class="section-header__label">Triage clinique</p>
+      <h2 class="section-header__title">Douleur bénigne ou <em>urgence cardiaque</em> ? Comment distinguer</h2>
+    </div>
+
+    <p class="article-text">
+      Toute douleur thoracique n'est pas forcément une <strong>crise d'angine de poitrine</strong> — mais toutes méritent une évaluation rigoureuse. Le principal défi clinique est de distinguer l'angor stable, qui répond au repos et à la trinitrine, de l'<strong>angor instable</strong>, qui constitue une urgence médicale absolue (SCA — Syndrome Coronarien Aigu).
+    </p>
+
+    <div class="split-section" aria-label="Diagnostic et test d'effort">
+      <div class="split-section__image">
+        <img
+          src="https://femininsante.com/wp-content/uploads/2026/03/test-effort-diagnostic-angine-de-poitrine-2026-696x399.webp"
+          alt="Épreuve d'effort cardiaque pour le diagnostic de l'angine de poitrine chez la femme — électrocardiogramme d'effort"
+          width="696" height="399"
+          loading="lazy"
+        />
+      </div>
+      <div>
+        <div class="section-header" style="opacity:1;transform:none;margin-bottom:1rem">
+          <p class="section-header__label">Épreuve d'effort</p>
+          <h3 class="section-header__title" style="font-size:1.3rem">Le test-clé du <em>diagnostic coronarien</em></h3>
+        </div>
+        <p class="article-text">
+          L'épreuve d'effort (ou test de stress cardiaque) reste l'examen de référence pour objectiver une insuffisance coronarienne. Elle permet d'évaluer la réponse du myocarde à une demande en oxygène accrue. Combinée à l'échocardiographie de stress ou à la scintigraphie myocardique, elle offre une précision diagnostique bien supérieure chez la femme.
+        </p>
+        <p class="article-text">
+          Le <a href="https://femininsante.com/angine-de-poitrine-guide-complet-2026/" class="internal-link" rel="noopener" target="_blank">guide complet sur l'angor et les douleurs thoraciques</a> détaille l'ensemble du parcours diagnostique recommandé par la Société Européenne de Cardiologie (ESC) pour 2026.
+        </p>
+      </div>
+    </div>
+
+    <div class="alert-box" role="alert" aria-label="Signes d'urgence cardiaque">
+      <div class="alert-box__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/></svg>
+      </div>
+      <div class="alert-box__content">
+        <div class="alert-box__title">⚡ Appelez le 15 (SAMU) immédiatement si…</div>
+        <div class="alert-box__text">
+          La douleur thoracique dure <strong>plus de 20 minutes</strong>, survient au repos, s'accompagne d'une irradiation dans la mâchoire ou le dos, de sueurs froides, d'une pâleur intense ou d'une sensation de mort imminente. Ces signes peuvent indiquer un <strong>infarctus du myocarde en évolution</strong> — chaque minute compte pour préserver le tissu cardiaque.
+        </div>
+      </div>
+    </div>
+
+    <!-- TIMELINE - TYPES D'ANGOR -->
+    <div class="info-box">
+      <div class="info-box__title">
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        Les 3 formes d'angine de poitrine à connaître
+      </div>
+      <ul>
+        <li><strong>Angor stable :</strong> douleur prévisible à l'effort, soulagée par le repos ou la trinitrine en moins de 5 minutes. Prise en charge ambulatoire possible.</li>
+        <li><strong>Angor instable :</strong> survenue au repos, aggravation récente, durée prolongée — c'est une urgence hospitalière. Risque d'infarctus dans les heures suivantes.</li>
+        <li><strong>Angor de Prinzmetal (vasospastique) :</strong> plus fréquent chez la femme jeune, lié à un spasme coronaire. Survient souvent la nuit et peut tromper le diagnostic.</li>
+      </ul>
+    </div>
+
+    <div class="ornament-divider" aria-hidden="true">♥ ♥ ♥</div>
+
+    <!-- SECTION 4 - TRAITEMENT -->
+    <div class="section-header" id="section4">
+      <p class="section-header__label">Prise en charge thérapeutique</p>
+      <h2 class="section-header__title">Traitements de <em>l'insuffisance coronarienne</em> en 2026</h2>
+    </div>
+
+    <p class="article-text">
+      La prise en charge de la <strong>maladie coronarienne chez la femme</strong> a considérablement évolué ces dernières années, avec une personnalisation croissante des stratégies thérapeutiques. Elle s'articule autour de trois piliers complémentaires : le traitement médicamenteux, les gestes d'angioplastie, et la prévention cardiovasculaire à long terme.
+    </p>
+
+    <div class="split-section reversed">
+      <div class="split-section__image">
+        <img
+          src="https://femininsante.com/wp-content/uploads/2026/03/traitement-stent-angine-de-poitrine-696x399.webp"
+          alt="Angioplastie coronarienne avec pose de stent pour traiter l'angine de poitrine — illustration médicale 2026"
+          width="696" height="399"
+          loading="lazy"
+        />
+      </div>
+      <div>
+        <div class="timeline" aria-label="Étapes du traitement">
+          <div class="timeline__item">
+            <div class="timeline__title">Bêtabloquants &amp; Dérivés nitrés</div>
+            <div class="timeline__text">Premier recours médicamenteux pour réduire la consommation en oxygène du myocarde et prévenir les crises. La trinitrine en spray reste le traitement de la crise.</div>
+          </div>
+          <div class="timeline__item" style="transition-delay:.1s">
+            <div class="timeline__title">Angioplastie coronarienne (stent)</div>
+            <div class="timeline__text">En cas de sténose significative, la pose d'un stent actif rétablit un flux coronarien satisfaisant. Technique percutanée minimalement invasive recommandée par l'ESC.</div>
+          </div>
+          <div class="timeline__item" style="transition-delay:.2s">
+            <div class="timeline__title">Pontage aorto-coronarien</div>
+            <div class="timeline__text">Réservé aux atteintes multivaisseaux complexes. La chirurgie cardiaque offre de meilleures perspectives à long terme dans certaines configurations.</div>
+          </div>
+          <div class="timeline__item" style="transition-delay:.3s">
+            <div class="timeline__title">Réhabilitation cardiaque</div>
+            <div class="timeline__text">Programme pluridisciplinaire (exercice supervisé, éducation thérapeutique, soutien psychologique) qui réduit de 26% la mortalité cardiovasculaire.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="article-text">
+      Pour une présentation exhaustive de toutes les options thérapeutiques, des interactions médicamenteuses à connaître, et des recommandations diététiques cardioprotectrices, consultez notre <a href="https://femininsante.com/angine-de-poitrine-guide-complet-2026/" class="internal-link" rel="noopener" target="_blank">guide expert sur la douleur thoracique et l'angor 2026</a> — rédigé avec l'appui de cardiologues certifiés.
+    </p>
+
+    <!-- NUMBERS CALLOUT -->
+    <div>
+      <div class="number-callout">
+        <div class="number-callout__num">01</div>
+        <div class="number-callout__text">
+          <div class="number-callout__label">Facteur de risque N°1</div>
+          <div class="number-callout__desc">L'<strong>hypertension artérielle</strong> est le principal facteur de risque modifiable d'angine de poitrine chez la femme après 50 ans. Une pression systolique &gt; 140 mmHg multiplie par 3 le risque d'événement coronarien.</div>
+        </div>
+      </div>
+      <div class="number-callout">
+        <div class="number-callout__num">02</div>
+        <div class="number-callout__text">
+          <div class="number-callout__label">Rôle des hormones</div>
+          <div class="number-callout__desc">La carence œstrogénique post-ménopausique accélère significativement l'athérosclérose coronarienne. Les femmes ménopausées présentent un profil de risque cardiovasculaire comparable à celui des hommes du même âge.</div>
+        </div>
+      </div>
+      <div class="number-callout">
+        <div class="number-callout__num">03</div>
+        <div class="number-callout__text">
+          <div class="number-callout__label">Stress et MINOCA</div>
+          <div class="number-callout__desc">Le syndrome de Tako-Tsubo (cardiomyopathie de stress) touche 90% de femmes. Un angor sans obstruction coronarienne significative (<strong>MINOCA</strong>) est 3 fois plus fréquent chez la femme et souvent sous-diagnostiqué.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 5 - PREVENTION -->
+    <div class="section-header" id="section5">
+      <p class="section-header__label">Cardioprotection au féminin</p>
+      <h2 class="section-header__title">Prévenir les <em>maladies cardiovasculaires</em> : l'approche 2026</h2>
+    </div>
+
+    <p class="article-text">
+      La prévention primaire et secondaire des <strong>maladies cardiaques chez la femme</strong> repose sur une approche holistique qui intègre les déterminants biologiques, psychosociaux et comportementaux. Les données épidémiologiques 2026 confirment qu'une intervention précoce sur les facteurs de risque permet de réduire de <strong>80% l'incidence des événements coronariens</strong>.
+    </p>
+
+    <div class="figure-wrap">
+      <img
+        src="https://femininsante.com/wp-content/uploads/2026/03/urgence-crise-angine-de-poitrine-696x398.webp"
+        alt="Femme appelant les secours lors d'une crise d'angine de poitrine — prise en charge urgente d'une douleur thoracique"
+        width="696" height="398"
+        loading="lazy"
+      />
+      <div class="figure-caption">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+        En cas de crise prolongée : appelez le 15 immédiatement — Féminin Santé 2026
+      </div>
+    </div>
+
+    <div class="info-box">
+      <div class="info-box__title">
+        <svg viewBox="0 0 24 24"><path d="M17 8C8 10 5.9 16.17 3.82 21.34 3.4 22.18 2 21.92 2 21V5c0-.55.45-1 1-1h8l2 3h8c.55 0 1 .45 1 1v9c0 .55-.45 1-1 1h-3.17l1.42-1.42A6 6 0 0017 8z"/></svg>
+        Piliers de la prévention cardiovasculaire féminine
+      </div>
+      <ul>
+        <li><strong>Alimentation méditerranéenne :</strong> riche en acides gras insaturés (omega-3), fibres, antioxydants polyphénoliques — elle réduit de 30% le risque coronarien.</li>
+        <li><strong>Activité physique régulière :</strong> 150 minutes/semaine d'exercice modéré réduisent la mortalité cardiovasculaire de 35%. La marche rapide reste l'option la plus accessible.</li>
+        <li><strong>Gestion du stress chronique :</strong> le cortisol favorise l'inflammation vasculaire et l'agrégation plaquettaire. Méditation, cohérence cardiaque et thérapies cognitives montrent des bénéfices mesurables.</li>
+        <li><strong>Contrôle des facteurs biologiques :</strong> bilan lipidique annuel après 45 ans, surveillance glycémique, contrôle tensionnel strict.</li>
+        <li><strong>Arrêt du tabac :</strong> le tabac triple le risque coronarien chez la femme et accélère la ménopause précoce — facteur aggravant supplémentaire.</li>
+      </ul>
+    </div>
+
+    <!-- CTA SECTION -->
+    <div class="cta-section" role="complementary" aria-label="Appel à l'action - Guide complet">
+      <div class="cta-section__eyebrow">Féminin Santé · Guide Expert Validé</div>
+      <h2 class="cta-section__title">Votre guide complet sur<br />l'angine de poitrine vous attend</h2>
+      <p class="cta-section__text">
+        Notre équipe de journalistes médicales et de cardiologues a compilé les recommandations les plus récentes de l'ESC, de la HAS et des études cliniques 2025-2026 dans un guide exhaustif dédié à la santé cardiaque féminine.
+      </p>
+      <a href="https://femininsante.com/angine-de-poitrine-guide-complet-2026/" class="cta-btn" rel="noopener" target="_blank" aria-label="Accéder au guide complet sur l'angine de poitrine">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zm0 12.5c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+        Accéder au Guide Gratuit
+      </a>
+    </div>
+
+    <!-- EXPERT PANEL -->
+    <div class="expert-panel" role="complementary" aria-label="À propos de l'auteure">
+      <div class="expert-avatar">
+        <img
+          src="https://femininsante.com/wp-content/uploads/2026/03/Patricia-Uget-—-Journaliste-feminin-Sante.webp"
+          alt="Patricia Uget, journaliste santé pour Féminin Santé Magazine"
+          width="80" height="80"
+          loading="lazy"
+        />
+      </div>
+      <div class="expert-info">
+        <div class="expert-name">Patricia Uget</div>
+        <div class="expert-title">Journaliste Santé · Féminin Santé Magazine</div>
+        <p class="expert-bio">
+          Journaliste spécialisée en santé féminine depuis plus de 12 ans, Patricia Uget collabore avec des équipes médicales pluridisciplinaires pour garantir des contenus <strong>YMYL</strong> rigoureux, sourcés et actualisés. Ses articles intègrent les dernières recommandations des sociétés savantes européennes et françaises. Tous les guides publiés sur Féminin Santé sont relus par au moins un professionnel de santé qualifié avant publication.
+        </p>
+      </div>
+    </div>
+
+    <!-- SECTION 6 - RELATED -->
+    <div class="section-header" id="section6">
+      <p class="section-header__label">À lire également</p>
+      <h2 class="section-header__title">Ressources <em>santé cardiaque</em> recommandées</h2>
+    </div>
+
+    <p class="article-text">
+      La santé cardiovasculaire féminine est un domaine vaste. Voici d'autres ressources pour approfondir votre compréhension des <strong>risques cardiaques chez la femme</strong>, des signes d'alerte à ne pas ignorer, et des stratégies de prévention validées cliniquement.
+    </p>
+
+    <div class="related-section">
+      <div class="related-section__title">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" style="color:var(--crimson)"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+        Articles liés sur Féminin Santé
+      </div>
+      <div class="related-grid">
+
+        <a href="https://femininsante.com/angine-de-poitrine-guide-complet-2026/" class="related-card" rel="noopener" target="_blank" aria-label="Guide complet angine de poitrine 2026">
+          <div class="related-card__img">
+            <img
+              src="https://femininsante.com/wp-content/uploads/2026/03/femme-douleur-thoracique-angine-de-poitrine-symptomes-696x399.webp"
+              alt="Guide angine de poitrine 2026"
+              width="696" height="399"
+              loading="lazy"
+            />
+          </div>
+          <div class="related-card__body">
+            <div class="related-card__cat">Maladies · Cardio</div>
+            <div class="related-card__title">Angine de poitrine : le guide complet 2026 pour les femmes</div>
+          </div>
+        </a>
+
+        <a href="https://femininsante.com/angine-de-poitrine-guide-complet-2026/" class="related-card" rel="noopener" target="_blank" aria-label="Symptômes cardiaques chez la femme">
+          <div class="related-card__img">
+            <img
+              src="https://femininsante.com/wp-content/uploads/2026/03/symptomes-femme-angine-de-poitrine-696x398.webp"
+              alt="Symptômes de l'angor chez la femme"
+              width="696" height="398"
+              loading="lazy"
+            />
+          </div>
+          <div class="related-card__body">
+            <div class="related-card__cat">Symptômes · Urgence</div>
+            <div class="related-card__title">Reconnaître les signes d'un syndrome coronarien chez la femme</div>
+          </div>
+        </a>
+
+        <a href="https://femininsante.com/angine-de-poitrine-guide-complet-2026/" class="related-card" rel="noopener" target="_blank" aria-label="Traitement angioplastie coronarienne">
+          <div class="related-card__img">
+            <img
+              src="https://femininsante.com/wp-content/uploads/2026/03/traitement-stent-angine-de-poitrine-696x399.webp"
+              alt="Traitement coronarien et stent"
+              width="696" height="399"
+              loading="lazy"
+            />
+          </div>
+          <div class="related-card__body">
+            <div class="related-card__cat">Traitement · Cardio</div>
+            <div class="related-card__title">Stent, angioplastie et médicaments : que choisir pour l'angor ?</div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+    <!-- FINAL BACKLINK BLOCK -->
+    <div class="intro-card" style="border-left-color: var(--gold); margin-top: 2rem;">
+      <p>
+        Cet article de présentation vous a donné un premier aperçu des enjeux liés à l'<a href="https://femininsante.com/angine-de-poitrine-guide-complet-2026/" class="internal-link" rel="noopener" target="_blank">angine de poitrine et aux douleurs thoraciques chez la femme</a>. Pour aller encore plus loin — mécanismes pathophysiologiques, examens complémentaires, protocoles thérapeutiques et témoignages de patientes — rendez-vous sur le <a href="https://femininsante.com/angine-de-poitrine-guide-complet-2026/" class="internal-link" rel="noopener" target="_blank">guide complet sur l'angor et la santé cardiaque féminine</a>, disponible en accès libre sur Féminin Santé. Votre cœur mérite une information sérieuse, validée, et à jour.
+      </p>
+    </div>
+
+  </div><!-- /container -->
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer" role="contentinfo">
+  <div class="site-footer__logo">Féminin <span>Santé</span></div>
+  <div class="site-footer__tagline">Le magazine de référence en santé féminine · Depuis 2020</div>
+  <nav class="footer-links" aria-label="Liens footer">
+    <a href="https://femininsante.com/angine-de-poitrine-guide-complet-2026/" rel="noopener" target="_blank">Guide Angine de Poitrine 2026</a>
+    <a href="https://femininsante.com/angine-de-poitrine-guide-complet-2026/" rel="noopener" target="_blank">Symptômes de l'angor</a>
+    <a href="https://femininsante.com/angine-de-poitrine-guide-complet-2026/" rel="noopener" target="_blank">Traitement coronarien</a>
+    <a href="https://femininsante.com/angine-de-poitrine-guide-complet-2026/" rel="noopener" target="_blank">Urgence cardiaque femme</a>
+    <a href="https://femininsante.com/angine-de-poitrine-guide-complet-2026/" rel="noopener" target="_blank">Prévention cardiovasculaire</a>
+  </nav>
+  <p class="footer-disclaimer">
+    <strong>Mention légale YMYL :</strong> Les informations publiées sur cette page sont rédigées par des journalistes médicales et relues par des professionnels de santé qualifiés. Elles ont un but éducatif et informatif uniquement, et ne sauraient se substituer à un avis médical personnalisé. En cas de symptômes cardiaques, consultez immédiatement un médecin ou appelez le 15 (SAMU). © 2026 Féminin Santé Magazine — Tous droits réservés.
+  </p>
+</footer>
+
+<!-- BACK TO TOP -->
+<button id="back-top" aria-label="Retour en haut de la page">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+</button>
+
+
+<!-- ============================================================
+     JAVASCRIPT
+============================================================ -->
+<script>
+(function () {
+  'use strict';
+
+  /* ── SCROLL PROGRESS BAR ─────────────────────────── */
+  const progressBar  = document.getElementById('progress-bar');
+  const readingFill  = document.getElementById('readingFill');
+  const readingPct   = document.getElementById('readingPct');
+  const backTop      = document.getElementById('back-top');
+
+  function getScrollPct() {
+    const scrollTop  = window.scrollY || document.documentElement.scrollTop;
+    const docHeight  = document.documentElement.scrollHeight - window.innerHeight;
+    return docHeight > 0 ? Math.min(100, Math.round((scrollTop / docHeight) * 100)) : 0;
+  }
+
+  function onScroll() {
+    const pct = getScrollPct();
+    if (progressBar)  progressBar.style.width = pct + '%';
+    if (readingFill)  readingFill.style.width  = pct + '%';
+    if (readingPct)   readingPct.textContent    = pct + '%';
+    if (backTop)      backTop.classList.toggle('show', pct > 10);
+  }
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* ── BACK TO TOP ─────────────────────────────────── */
+  if (backTop) {
+    backTop.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  /* ── INTERSECTION OBSERVER (reveal animations) ─── */
+  const io = new IntersectionObserver(
+    function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          io.unobserve(entry.target);
+        }
+      });
+    },
+    { rootMargin: '0px 0px -10% 0px', threshold: 0.1 }
+  );
+
+  document.querySelectorAll(
+    '.section-header, .stat-item, .symptom-card, .timeline__item'
+  ).forEach(function (el) { io.observe(el); });
+
+  /* ── STAGGERED DELAY for timeline items ─────────── */
+  document.querySelectorAll('.timeline__item').forEach(function (item, i) {
+    item.style.transitionDelay = (i * 0.12) + 's';
+  });
+
+  /* ── READING MODE TOGGLE ─────────────────────────── */
+  const readToggle = document.getElementById('readToggle');
+  if (readToggle) {
+    readToggle.addEventListener('click', function () {
+      document.body.classList.toggle('reading-mode');
+      const on = document.body.classList.contains('reading-mode');
+      readToggle.setAttribute('aria-pressed', on);
+    });
+  }
+
+  /* ── SMOOTH HOVER TILT on figure-wrap ─────────────── */
+  document.querySelectorAll('.figure-wrap').forEach(function (wrap) {
+    wrap.addEventListener('mousemove', function (e) {
+      const rect = wrap.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width  - 0.5) * 5;
+      const y = ((e.clientY - rect.top)  / rect.height - 0.5) * -5;
+      wrap.style.transform = 'perspective(800px) rotateY(' + x + 'deg) rotateX(' + y + 'deg) scale(1.01)';
+    });
+    wrap.addEventListener('mouseleave', function () {
+      wrap.style.transform = '';
+    });
+  });
+
+  /* ── COUNTER ANIMATION for stats ─────────────────── */
+  function animateCounter(el, target, isFloat, suffix) {
+    var start = 0;
+    var duration = 1600;
+    var startTime = null;
+
+    function step(timestamp) {
+      if (!startTime) startTime = timestamp;
+      var progress = Math.min((timestamp - startTime) / duration, 1);
+      var eased = 1 - Math.pow(1 - progress, 3);
+      var current = isFloat
+        ? (eased * target).toFixed(1)
+        : Math.floor(eased * target);
+      el.textContent = current + suffix;
+      if (progress < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  var statObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        var nums = entry.target.querySelectorAll('.stat-item__num');
+        nums[0] && animateCounter(nums[0], 5.4, true, ' M');
+        nums[1] && animateCounter(nums[1], 40, false, '%');
+        nums[2] && animateCounter(nums[2], 1, false, 'ᵉʳ');
+        statObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  var ribbon = document.querySelector('.stats-ribbon__inner');
+  if (ribbon) statObserver.observe(ribbon);
+
+  /* ── HEADER shadow on scroll ─────────────────────── */
+  var header = document.querySelector('.site-header');
+  window.addEventListener('scroll', function () {
+    if (header) {
+      header.style.boxShadow = window.scrollY > 40
+        ? '0 4px 24px rgba(28,28,34,.12)'
+        : 'none';
+    }
+  }, { passive: true });
+
+  /* ── PARTICLE-LIKE FLOATING HEARTS (canvas, subtle) ─ */
+  var canvas = document.createElement('canvas');
+  canvas.style.cssText = [
+    'position:fixed', 'inset:0', 'pointer-events:none',
+    'z-index:1', 'opacity:0.35'
+  ].join(';');
+  document.body.appendChild(canvas);
+
+  var ctx = canvas.getContext('2d');
+  var hearts = [];
+
+  function resizeCanvas() {
+    canvas.width  = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  resizeCanvas();
+  window.addEventListener('resize', resizeCanvas, { passive: true });
+
+  function Heart() {
+    this.reset();
+  }
+
+  Heart.prototype.reset = function () {
+    this.x    = Math.random() * canvas.width;
+    this.y    = canvas.height + 20;
+    this.size = Math.random() * 8 + 4;
+    this.speedY = Math.random() * 0.4 + 0.15;
+    this.speedX = (Math.random() - 0.5) * 0.3;
+    this.alpha  = Math.random() * 0.25 + 0.05;
+    this.color  = Math.random() > 0.6 ? '#C0293A' : '#C9A84C';
+  };
+
+  Heart.prototype.update = function () {
+    this.y -= this.speedY;
+    this.x += this.speedX;
+    if (this.y < -20) this.reset();
+  };
+
+  Heart.prototype.draw = function () {
+    ctx.save();
+    ctx.globalAlpha = this.alpha;
+    ctx.fillStyle   = this.color;
+    ctx.translate(this.x, this.y);
+    ctx.beginPath();
+    var s = this.size;
+    ctx.moveTo(0, s * 0.35);
+    ctx.bezierCurveTo(-s, -s * 0.1, -s * 1.5, s * 0.9,  0, s * 1.6);
+    ctx.bezierCurveTo( s * 1.5, s * 0.9,  s, -s * 0.1, 0, s * 0.35);
+    ctx.fill();
+    ctx.restore();
+  };
+
+  for (var i = 0; i < 18; i++) {
+    var h = new Heart();
+    h.y = Math.random() * canvas.height; // scatter initially
+    hearts.push(h);
+  }
+
+  function animateHearts() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    hearts.forEach(function (h) { h.update(); h.draw(); });
+    requestAnimationFrame(animateHearts);
+  }
+  animateHearts();
+
+})();
+</script>
+
+</body>
+</html>
